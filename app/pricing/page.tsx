@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Icon from "@/components/Icon";
+export const runtime = 'edge';
 export const metadata={title:"Gara Music — Plans",description:"Gara Music product and service plans."};
 const plans=[
  {name:"Listener",price:"Free",desc:"For people who want a focused way to discover and save music.",items:["Catalogue discovery","Search & genre browsing","Persistent player","Personal library"],cta:"Start exploring"},

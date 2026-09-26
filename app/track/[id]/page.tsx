@@ -5,6 +5,7 @@ import TrackGrid from "@/components/TrackGrid";
 import TrackPageControls from "@/components/TrackPageControls";
 
 export const revalidate = 120;
+export const runtime = 'edge';
 
 export default async function TrackPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;

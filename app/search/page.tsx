@@ -5,6 +5,7 @@ import { useSearchParams, useRouter } from "next/navigation";
 import TrackGrid from "@/components/TrackGrid";
 import Icon from "@/components/Icon";
 import { Track } from "@/lib/types";
+export const runtime = 'edge';
 
 const genres = ["All", "Electronic", "Hip-Hop/Rap", "Pop", "R&B", "Lo-Fi", "House", "Rock", "Jazz"];
 

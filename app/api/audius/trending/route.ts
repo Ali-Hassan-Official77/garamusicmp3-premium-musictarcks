@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getTrending } from "@/lib/audius";
+export const runtime = 'edge';
 
 export async function GET(req: NextRequest) {
   const genre = req.nextUrl.searchParams.get("genre") || undefined;

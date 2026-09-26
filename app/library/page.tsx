@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import TrackGrid from "@/components/TrackGrid";
 import { getLikedTracksFromStorage } from "@/components/PlayerProvider";
 import { Track } from "@/lib/types";
+export const runtime = 'edge';
 
 export default function LibraryPage() {
   const [tracks, setTracks] = useState<Track[]>([]);

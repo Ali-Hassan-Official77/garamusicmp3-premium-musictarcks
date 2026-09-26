@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Icon from "@/components/Icon";
 import FAQ from "@/components/FAQ";
+export const runtime = 'edge';
 
 export const metadata={title:"About Gara Music — Music discovery with intent",description:"Learn how the Gara Music platform is structured."};
 

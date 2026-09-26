@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getLyrics } from "@/lib/lrclib";
+export const runtime = 'edge';
 
 export async function GET(req: NextRequest) {
   const track = req.nextUrl.searchParams.get("track")?.trim() || "";

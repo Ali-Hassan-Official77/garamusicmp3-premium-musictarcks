@@ -1,4 +1,5 @@
 import { getStreamResponse } from "@/lib/audius";
+export const runtime = 'edge';
 
 export async function GET(_req: Request, { params }: { params: Promise<{ id: string }> }) {
   try {
